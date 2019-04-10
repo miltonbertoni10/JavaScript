@@ -17,6 +17,16 @@
    
    //array 
 
+   var names = [];
+   names[0] = 'Milton/';
+   names[1] = 'eloiza/';
+
+   for(index in names){
+       var value = names[index];
+    console.log(value);
+   }
+   
+
    var array = ["milton","eloiza","bernardo"];
    //while, for and foreach...
    for (let i = 0; i < array.length; i++) {
@@ -27,8 +37,12 @@
    for (index in array) {
     var value = array[index];
     console.log("array[" + index + "] = " + value);
-}
-   
+    }
+   //functions in javascript
+   function valores(num1,num2){
+       //console.log(num1 + " / " + num2);
+       return num1 + num2;
+   }
 
    //array.idade = 24;
 
